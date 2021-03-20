@@ -1,0 +1,1402 @@
+fileFormatVersion: 2
+guid: bb2a00de8c29a4dd1b398a138f23d4b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5827535401894385570
+    second: UI_guns_0
+  - first:
+      213: 2966928984954567746
+    second: UI_guns_1
+  - first:
+      213: 2820037664050063817
+    second: UI_guns_2
+  - first:
+      213: -3898635522496764064
+    second: UI_guns_pistol_M1911
+  - first:
+      213: -945240212303046766
+    second: UI_guns_pistol_Magnum
+  - first:
+      213: 49515384690983827
+    second: UI_guns_pistol_Bereta8000
+  - first:
+      213: 7211568021190869385
+    second: UI_guns_6
+  - first:
+      213: -3200381195201792082
+    second: UI_guns_Shotgun_Mossberg590
+  - first:
+      213: 4501451605113993182
+    second: UI_guns_8
+  - first:
+      213: 8273602967357635283
+    second: UI_guns_9
+  - first:
+      213: -6030494774812111334
+    second: UI_guns_10
+  - first:
+      213: -2677037864411193410
+    second: UI_guns_11
+  - first:
+      213: -4354107234031536165
+    second: UI_guns_12
+  - first:
+      213: 2159965412378296889
+    second: UI_guns_13
+  - first:
+      213: -6762870704968845874
+    second: UI_guns_14
+  - first:
+      213: 6169402107939508676
+    second: UI_guns_15
+  - first:
+      213: -8214970482266074527
+    second: UI_guns_16
+  - first:
+      213: 6428114085940301163
+    second: UI_guns_17
+  - first:
+      213: 5719723522718828521
+    second: UI_guns_18
+  - first:
+      213: -8849213615549659766
+    second: UI_guns_19
+  - first:
+      213: 9068194971850819518
+    second: UI_guns_20
+  - first:
+      213: -1312626935082860698
+    second: UI_cruz
+  - first:
+      213: 4279568955263879182
+    second: UI_guns_22
+  - first:
+      213: 7350500427585726954
+    second: UI_linterna
+  - first:
+      213: 5687612406369691850
+    second: UI_guns_Shutgun_Uzi
+  - first:
+      213: 5377520116330835700
+    second: UI_guns_25
+  - first:
+      213: 8944624385022723008
+    second: UI_guns_26
+  - first:
+      213: 8711989232390329295
+    second: UI_guns_27
+  - first:
+      213: -3026093772967879967
+    second: UI_guns_28
+  - first:
+      213: 6385037645819755376
+    second: UI_guns_29
+  - first:
+      213: -2444127873246667246
+    second: UI_guns_30
+  - first:
+      213: 7773655432054502604
+    second: UI_guns_31
+  - first:
+      213: 9085043577752483982
+    second: UI_guns_32
+  - first:
+      213: -7499445155875536948
+    second: UI_guns_33
+  - first:
+      213: -5691903010867687081
+    second: UI_guns_34
+  - first:
+      213: -7997937894909110743
+    second: UI_guns_35
+  - first:
+      213: -8949255860048779106
+    second: UI_guns_36
+  - first:
+      213: 8940720054957537501
+    second: UI_guns_37
+  - first:
+      213: 2252701855887867963
+    second: UI_guns_38
+  - first:
+      213: -8272451221107985153
+    second: UI_guns_Graneade_Khattabka
+  - first:
+      213: 3420908820137838214
+    second: UI_guns_Graneade_An-M14Incendiary
+  - first:
+      213: -6171501869744255030
+    second: UI_leaderboar_Icon
+  - first:
+      213: -4601386924023578105
+    second: UI_guns_42
+  - first:
+      213: 7596006204201377731
+    second: UI_guns_Shotgun_BeretaXtrema
+  - first:
+      213: 5679231403114112758
+    second: UI_guns_graneade_RGD5
+  - first:
+      213: -6434791391495951658
+    second: UI_guns_Rifle_AK47
+  - first:
+      213: -1654615058238025265
+    second: UI_guns_Shotgun_Bennelli
+  - first:
+      213: -5048432338763390919
+    second: UI_guns_shotgun_Cluster
+  - first:
+      213: -5898792867169893748
+    second: UI_guns_Rifle_M48
+  - first:
+      213: 5529218140645031403
+    second: UI_guns_Knife
+  - first:
+      213: -3272264366364434571
+    second: UI_guns_Rifle_M107
+  - first:
+      213: -2137952879119389427
+    second: UI_guns_51
+  - first:
+      213: -4541218812764103984
+    second: UI_guns_knifeWhite
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_guns_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1009
+        width: 103
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a79de982909fd050800000000000000
+      internalID: 5827535401894385570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1002
+        width: 154
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cf60e3136ac2920800000000000000
+      internalID: 2966928984954567746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1017
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c92de27059c22720800000000000000
+      internalID: 2820037664050063817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_pistol_M1911
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1007
+        width: 99
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0676cdce5a345e9c0800000000000000
+      internalID: -3898635522496764064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_pistol_Magnum
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 999
+        width: 153
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2971346f805d1e2f0800000000000000
+      internalID: -945240212303046766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_pistol_Bereta8000
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1012
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3934c63eaf9efa000800000000000000
+      internalID: 49515384690983827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 915
+        width: 275
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98106a028e2a41460800000000000000
+      internalID: 7211568021190869385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Shotgun_Mossberg590
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 918
+        width: 274
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea738226246f593d0800000000000000
+      internalID: -3200381195201792082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 822
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed77e68926e587e30800000000000000
+      internalID: 4501451605113993182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 825
+        width: 322
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da38f9301eb1d270800000000000000
+      internalID: 8273602967357635283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 821
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e897704f06f4ca0800000000000000
+      internalID: -6030494774812111334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 823
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf1081fe3049dad0800000000000000
+      internalID: -2677037864411193410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_12
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 836
+        width: 314
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd777992a8a1393c0800000000000000
+      internalID: -4354107234031536165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 720
+        width: 479
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93240fb391db9fd10800000000000000
+      internalID: 2159965412378296889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 821
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5bf60dce47522a0800000000000000
+      internalID: -6762870704968845874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_15
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 778
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1d740c78e1e9550800000000000000
+      internalID: 6169402107939508676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 716
+        width: 473
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16216340fdf8efd80800000000000000
+      internalID: -8214970482266074527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 597
+        width: 263
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d082c14bf353950800000000000000
+      internalID: 6428114085940301163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 821
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e70a115d3a806f40800000000000000
+      internalID: 5719723522718828521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 584
+        width: 258
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85cc9f0a17413580800000000000000
+      internalID: -8849213615549659766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_20
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 745
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7c6231843b8dd70800000000000000
+      internalID: 9068194971850819518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_cruz
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 593
+        width: 125
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5085128, y: 0.61729735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fb6c3d1cc98cde0800000000000000
+      internalID: -1312626935082860698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 473
+        width: 240
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e080b4a6a45146b30800000000000000
+      internalID: 4279568955263879182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_linterna
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 471
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9aa9bb139320660800000000000000
+      internalID: 7350500427585726954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Shutgun_Uzi
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 461
+        width: 236
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac825cd69557eee40800000000000000
+      internalID: 5687612406369691850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 406
+        width: 392
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feaa62fd0ac0aa40800000000000000
+      internalID: 5377520116330835700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_26
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 396
+        width: 394
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3839ecc70b12c70800000000000000
+      internalID: 8944624385022723008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 275
+        width: 370
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc357ab7c0437e870800000000000000
+      internalID: 8711989232390329295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 7
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea5a351fb72106d0800000000000000
+      internalID: -3026093772967879967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 48
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b3594d8e53c9850800000000000000
+      internalID: 6385037645819755376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e508916a6b41ed0800000000000000
+      internalID: -2444127873246667246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_31
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4f4e9cd6291eb60800000000000000
+      internalID: 7773655432054502604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_32
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 265
+        width: 360
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8871e4dffe841e70800000000000000
+      internalID: 9085043577752483982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 14
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfb38f4d5e9ce790800000000000000
+      internalID: -7499445155875536948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_34
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751514d5e5c4201b0800000000000000
+      internalID: -5691903010867687081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9269e460cdd910190800000000000000
+      internalID: -7997937894909110743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 61
+        width: 112
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a5b1e53bddc380800000000000000
+      internalID: -8949255860048779106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd874ff1581d31c70800000000000000
+      internalID: 8940720054957537501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 105
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b304f011764334f10800000000000000
+      internalID: 2252701855887867963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Graneade_Khattabka
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 12
+        width: 135
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4bc189179523d80800000000000000
+      internalID: -8272451221107985153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Graneade_An-M14Incendiary
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 11
+        width: 127
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68601597272897f20800000000000000
+      internalID: 3420908820137838214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_leaderboar_Icon
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 23
+        width: 260
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf0c3b5fbb6a5aa0800000000000000
+      internalID: -6171501869744255030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_42
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1007
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7028277c8f69420c0800000000000000
+      internalID: -4601386924023578105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Shotgun_BeretaXtrema
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 90
+        width: 264
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf1619b56f6a6960800000000000000
+      internalID: 7596006204201377731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_graneade_RGD5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 469
+        width: 74
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f62cdb0fdea0de40800000000000000
+      internalID: 5679231403114112758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Rifle_AK47
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 914
+        width: 278
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da642a825703b6a0800000000000000
+      internalID: -6434791391495951658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Shotgun_Bennelli
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 829
+        width: 231
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1d5bdfe50a909e0800000000000000
+      internalID: -1654615058238025265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_shotgun_Cluster
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 667
+        width: 258
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930e96f198d50f9b0800000000000000
+      internalID: -5048432338763390919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Rifle_M48
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 548
+        width: 267
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c820bb4f327432ea0800000000000000
+      internalID: -5898792867169893748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Knife
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 184
+        width: 219
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedfac69a9abbbc40800000000000000
+      internalID: 5529218140645031403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_Rifle_M107
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 9
+        width: 262
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fddaf55e49692d0800000000000000
+      internalID: -3272264366364434571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_51
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 349
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0da09d0f277452e0800000000000000
+      internalID: -2137952879119389427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_guns_knifeWhite
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 471
+        width: 225
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dadfd9dc895af0c0800000000000000
+      internalID: -4541218812764103984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d63b10524230a421495933261f5a1df3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

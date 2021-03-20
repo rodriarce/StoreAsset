@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: emission plat
+  m_Shader: {fileID: 4800000, guid: 29fed12d8547e354e90be987488147c1, type: 3}
+  m_ShaderKeywords: _GLOW_ON _SCAN_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlickerTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _Brightness: 1.43
+    - _FlickerSpeed: 1
+    - _Fold: 3
+    - _GlitchIntensity: 0
+    - _GlitchSpeed: 50
+    - _GlowSpeed: 2.81
+    - _GlowTiling: 0.622
+    - _RimPower: 10
+    - _ScanSpeed: 0.73
+    - _ScanTiling: 1.87
+    m_Colors:
+    - _Direction: {r: 0, g: 0, b: 1, a: 0}
+    - _MainColor: {r: 1, g: 0.15566039, b: 0.20857978, a: 1}
+    - _RimColor: {r: 1, g: 0, b: 0.34208536, a: 1}

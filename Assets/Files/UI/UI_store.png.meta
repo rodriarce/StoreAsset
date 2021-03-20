@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: 7c9c60063ffb34e26ba23085f2630b36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2610129043731301288
+    second: UI store panel
+  - first:
+      213: 378819961983944843
+    second: UI store button
+  - first:
+      213: 3053555884270593616
+    second: UI store bullets
+  - first:
+      213: 9218873458190226594
+    second: UI store medickit
+  - first:
+      213: -248725121399419110
+    second: UI_store_magnunBullets
+  - first:
+      213: 973499171406454326
+    second: UI_store_shootgun_bullets
+  - first:
+      213: -520400948628853942
+    second: UI_store_Bullets_metralleta
+  - first:
+      213: -7122580659047393855
+    second: UI_store_7
+  - first:
+      213: -5485599108079831618
+    second: UI_store_0
+  - first:
+      213: 7645937594612799708
+    second: UI_store_1
+  - first:
+      213: -894127719384562332
+    second: UI_store_2
+  - first:
+      213: 1828032677700194051
+    second: UI_revotiva_logo
+  - first:
+      213: 7685160456030453458
+    second: UI_facebook_logo
+  - first:
+      213: -367834292475270152
+    second: UI_REVOTIVA_SOLO
+  - first:
+      213: -3394456295732331682
+    second: UI_halloween
+  - first:
+      213: 6364959213903723491
+    second: UI_calavera
+  - first:
+      213: 138102465029374173
+    second: UI_store_accesorios_pikachu
+  - first:
+      213: -6181376187865655388
+    second: UI_dimond
+  - first:
+      213: -2506315470809660834
+    second: UI_store_billete
+  - first:
+      213: 612753219504787778
+    second: UI_bullet_shutgun
+  - first:
+      213: 5332216032589645123
+    second: UI_bullet_pistol
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI store panel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1362
+        width: 635
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f981611c8e430479588cbef8ebaaf559
+      internalID: 2610129043731301288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI store button
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1709
+        width: 355
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4133e856200945278336e2db55315c8
+      internalID: 378819961983944843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI store bullets
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1945
+        width: 667
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe2442d482f94aa8b07abf5ad421e2a
+      internalID: 3053555884270593616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI store medickit
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1485
+        width: 662
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e092bbd82ef47a3b017836affd0960
+      internalID: 9218873458190226594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_magnunBullets
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1415
+        width: 381
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea044d607e1474939aa4455b4c2c5678
+      internalID: -248725121399419110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_shootgun_bullets
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 883
+        width: 445
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea887e5020ba41c081f1f98375a7452
+      internalID: 973499171406454326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_Bullets_metralleta
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 860
+        width: 779
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24a03b660e104a2f821e9024ef85335
+      internalID: -520400948628853942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_7
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 2028
+        width: 253
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71109e65a4dc04d809ef260ec5996bd9
+      internalID: -7122580659047393855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_0
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1942
+        width: 139
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2c2d6a0b04a4688bcfadf3826aefce
+      internalID: -5485599108079831618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1042
+        width: 324
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ade024e8b4f4c57a52f4cbd9199a52
+      internalID: 7645937594612799708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 921
+        width: 435
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7a47999aeb74eba825db743c1c9e7a
+      internalID: -894127719384562332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_revotiva_logo
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 908
+        width: 284
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f4028f80a7e5910800000000000000
+      internalID: 1828032677700194051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_facebook_logo
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 561
+        width: 341
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2def29f87bc27aa60800000000000000
+      internalID: 7685160456030453458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_REVOTIVA_SOLO
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1446
+        width: 199
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbedcce8a035eaf0800000000000000
+      internalID: -367834292475270152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_halloween
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1
+        width: 550
+        height: 877
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b394fcbf774e0d0800000000000000
+      internalID: -3394456295732331682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_calavera
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 20
+        width: 565
+        height: 812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebb49a9ea0e45850800000000000000
+      internalID: 6364959213903723491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_accesorios_pikachu
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 395
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd08ea2d573aae100800000000000000
+      internalID: 138102465029374173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_dimond
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 24
+        width: 558
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a795338b17573aa0800000000000000
+      internalID: -6181376187865655388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_store_billete
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 2079
+        width: 257
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52035bbb57c73dd0800000000000000
+      internalID: -2506315470809660834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_bullet_shutgun
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1800
+        width: 172
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2415f8f7ecfe08800800000000000000
+      internalID: 612753219504787778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_bullet_pistol
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1824
+        width: 182
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3450628fa36dff940800000000000000
+      internalID: 5332216032589645123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8950bf839304c4884a4f25fca9656f59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

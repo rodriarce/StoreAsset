@@ -1,0 +1,579 @@
+fileFormatVersion: 2
+guid: c615ec4a567514df5a627b9200d8ae8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7834333399835958496
+    second: detalles1_level2_0
+  - first:
+      213: 9040554705405383859
+    second: detalles1_level2_1
+  - first:
+      213: -2305179494227697161
+    second: detalles1_level2_2
+  - first:
+      213: 4351578882288895883
+    second: detalles1_level2_3
+  - first:
+      213: -2477600662269191823
+    second: detalles1_level2_4
+  - first:
+      213: 68251117453151952
+    second: detalles1_level2_5
+  - first:
+      213: -5952264985830859609
+    second: detalles1_level2_6
+  - first:
+      213: 4787074550545810362
+    second: detalles1_level2_7
+  - first:
+      213: 5221698103754199644
+    second: detalles1_level2_8
+  - first:
+      213: 846392339451888433
+    second: detalles1_level2_9
+  - first:
+      213: 6722337450582840216
+    second: detalles1_level2_10
+  - first:
+      213: -2353573715694256334
+    second: detalles1_level2_11
+  - first:
+      213: -369353343568440723
+    second: detalles1_level2_12
+  - first:
+      213: -6806123848428496396
+    second: detalles1_level2_13
+  - first:
+      213: -4223286760143592529
+    second: detalles1_level2_14
+  - first:
+      213: -2258773817723066132
+    second: detalles1_level2_15
+  - first:
+      213: 5286156489574485014
+    second: detalles1_level2_16
+  - first:
+      213: -3065285279704500677
+    second: detalles1_level2_17
+  - first:
+      213: 9199795897968765211
+    second: detalles1_level2_18
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: detalles1_level2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 895
+        width: 132
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580b716d8cd454d8683b3847fc48ed82
+      internalID: 7834333399835958496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 894
+        width: 98
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879e4b7608f024dcf948c409b0246b3b
+      internalID: 9040554705405383859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 893
+        width: 120
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f665af53984ca45d2956afba090354d0
+      internalID: -2305179494227697161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 692
+        width: 134
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3403ecc54559b429d9a0c9fefda8c74d
+      internalID: 4351578882288895883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 688
+        width: 123
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c00a746794b43748ceac80f637a4a0
+      internalID: -2477600662269191823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 395
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccecc6f6edb840ca850b0b1b8fce093
+      internalID: 68251117453151952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 184
+        width: 95
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377215cbd2b684e3798a5cb752962c11
+      internalID: -5952264985830859609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 133
+        width: 108
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e799764f6eb4dd8aa61ba185a0abbf
+      internalID: 4787074550545810362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 134
+        width: 108
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b751e6be6bb4c3183738ae46436df7
+      internalID: 5221698103754199644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 324
+        width: 728
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748ee3053f91b4559b005ba5605fe129
+      internalID: 846392339451888433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_10
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 525
+        width: 102
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9510061b812944044a34ff7d4a2642e3
+      internalID: 6722337450582840216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_11
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 579
+        width: 72
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73f478468a7b42b5947c2536330ebe3
+      internalID: -2353573715694256334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_12
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 579
+        width: 68
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2445f4c0c86994881a3192d75576f995
+      internalID: -369353343568440723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_13
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 601
+        width: 65
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03801c4dfbe94b1d9b7e816543aab43
+      internalID: -6806123848428496396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 591
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62adbcf15b3149d68646e95561fb7fc
+      internalID: -4223286760143592529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_15
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 736
+        width: 148
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be89f51f8c34eb481a0218b6e6b6a2
+      internalID: -2258773817723066132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_16
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 796
+        width: 244
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf031176d959419a96b3f49c42ccaae
+      internalID: 5286156489574485014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 995
+        width: 232
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08f5ad5ed8a44e79ba92030591c5c2a
+      internalID: -3065285279704500677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detalles1_level2_18
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 522
+        width: 94
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14026ba4e63468f9d32e95ca3c7033
+      internalID: 9199795897968765211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 34b30b9f423c7486783003f5afda7340
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
