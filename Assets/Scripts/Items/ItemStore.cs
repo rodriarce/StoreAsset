@@ -40,7 +40,7 @@ public class ItemStore : MonoBehaviour
 
     private Sprite GetImageItem(string itemId)
     {
-        var totalItems = Resources.LoadAll("Items", typeof(StoreItems));
+        var totalItems = Resources.LoadAll("Weapons", typeof(StoreItems));
         foreach (StoreItems item in totalItems)
         {
             if (item.itemId == itemId)
