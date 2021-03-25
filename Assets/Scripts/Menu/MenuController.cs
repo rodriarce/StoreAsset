@@ -29,9 +29,10 @@ public class MenuController : MonoBehaviour
 
     private void Start()
     {
+        
        
     }
-
+    
     
 
     public void PlayAudioChest()
