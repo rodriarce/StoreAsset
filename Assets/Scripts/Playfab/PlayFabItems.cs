@@ -18,12 +18,15 @@ public enum KindOfOperation
 public class PlayFabItems : MonoBehaviour
 {
     public GameObject prefabItem;
-    public Transform parentItem;
+    public Transform parentWeapons;
+    public Transform parentArmor;
+    public Transform parentItems;
+    public Transform parentCoins;
     public static List<CatalogItem> itemsToAdd = new List<CatalogItem>();
     public static CatalogItem currentItem;
     public static List<CatalogItem> shopItems = new List<CatalogItem>();
     private static bool hasItem;
-
+    
 
     // Start is called before the first frame update
     void Start()
@@ -67,13 +70,49 @@ public class PlayFabItems : MonoBehaviour
 
     private void CreateItem()
     {
+        // Fetch items in content panel
         //var totalItems = Resources.LoadAll("Items", typeof(StoreItems));
         foreach (CatalogItem item in shopItems)
         {
-            GameObject newItem = Instantiate(prefabItem);
-            newItem.transform.SetParent(parentItem);
-            newItem.transform.localScale = Vector3.one;
-            newItem.GetComponent<ItemStore>().SetItemsName(item);
+            switch (item.ItemClass)
+            {
+                case "Weapons":
+                    GameObject newWeapon = Instantiate(prefabItem);
+                    newWeapon.transform.SetParent(parentWeapons);
+                    newWeapon.transform.localScale = Vector3.one;
+                    newWeapon.GetComponent<ItemStore>().SetItemsName(item);
+
+                    //weaponItems.Add(item);
+                    break;
+                case "Armor":
+                    GameObject newArmor = Instantiate(prefabItem);
+                    newArmor.transform.SetParent(parentArmor);
+                    newArmor.transform.localScale = Vector3.one;
+                    newArmor.GetComponent<ItemStore>().SetItemsName(item);
+
+                    //armorItems.Add(item);
+                    break;
+                case "Items":
+                    GameObject newOther = Instantiate(prefabItem);
+                    newOther.transform.SetParent(parentItems);
+                    newOther.transform.localScale = Vector3.one;
+                    newOther.GetComponent<ItemStore>().SetItemsName(item);
+                    //otherItems.Add(item);
+                    break;
+                case "Coins":
+                    GameObject newCoins = Instantiate(prefabItem);
+                    newCoins.transform.SetParent(parentCoins);
+                    newCoins.transform.localScale = Vector3.one;
+                    newCoins.GetComponent<ItemStore>().SetItemsName(item);
+
+                    break;
+
+                //case 
+            }
+
+
+
+         
 
         }
 

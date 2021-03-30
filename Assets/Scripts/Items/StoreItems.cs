@@ -7,14 +7,13 @@ public enum KindOfItem
     isWeapon,
     isCoin,
     isArmor,
-    isHealth
+    isItem
 }
 
-[CreateAssetMenu(menuName = "StoreItems")]
+
 public class StoreItems : ScriptableObject
 {
-    
-    public string itemId;
+    public KindOfItem kindOfItem;
     public string nameItem;
     public Sprite imageItem;
     public string description;
@@ -24,20 +23,11 @@ public class StoreItems : ScriptableObject
     
 }
 
-public class WeaponItems : StoreItems
-{
-    public int damage;
-    public bool isEquiped;
 
 
-}
 
-public class ArmorItems : StoreItems
-{
-    public int armor;
-    public bool isEquiped;
 
-}
+
 
 
 

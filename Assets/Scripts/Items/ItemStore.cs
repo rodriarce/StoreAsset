@@ -35,20 +35,62 @@ public class ItemStore : MonoBehaviour
             itemPrice.text = item.VirtualCurrencyPrices["US"].ToString();
         }
         
-        imageItem.sprite = GetImageItem(item.ItemId);
+        imageItem.sprite = GetImageItem(item.ItemId, item.ItemClass);
     }
 
-    private Sprite GetImageItem(string itemId)
+    private Sprite GetImageItem(string itemId, string kindOfItem)
     {
-        var totalItems = Resources.LoadAll("Weapons", typeof(StoreItems));
-        foreach (StoreItems item in totalItems)
+        switch (kindOfItem)
         {
-            if (item.itemId == itemId)
-            {
-                return item.imageItem;
-            }
+            case "Weapons":
+                var totalWeapons = Resources.LoadAll("Weapons", typeof(WeaponItems));
+                foreach (WeaponItems weapon in totalWeapons)
+                {
+                    if (weapon.nameItem == itemId)
+                    {
+                        return weapon.imageItem;
+                    }
+                }
+                break;
+            case "Armor":
+                var totalArmor = Resources.LoadAll("Armor", typeof(ArmorItems));
+                foreach (ArmorItems armor in totalArmor)
+                {
+                    if (armor.nameItem == itemId)
+                    {
+                        return armor.imageItem;
+                    }
+                }
+
+
+
+                break;
+            case "Others":
+                var totalOthers = Resources.LoadAll("Others", typeof(OtherItems));
+                foreach (OtherItems item in totalOthers)
+                {
+                    if (item.nameItem == itemId)
+                    {
+                        return item.imageItem;
+                    }
+                }
+
+                break;
+            case "Coins":
+                var totalCoinsItems = Resources.LoadAll("Coins", typeof(CoinsItems));
+                foreach (CoinsItems coinItem in totalCoinsItems)
+                {
+                    if (coinItem.nameItem == itemId)
+                    {
+                        return coinItem.imageItem;
+                    }
+                }
+
+                break;
+
         }
-        return null;
+
+       return null;
     }
 
     public void BuyItem()
