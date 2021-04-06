@@ -8,6 +8,7 @@ using PlayFab.AdminModels;
 
 public class ItemStore : MonoBehaviour
 {
+    public KindOfItem kindOfItem;
     public Text itemName;
     public Text itemTitle;
     public Text itemDescription;
@@ -15,6 +16,8 @@ public class ItemStore : MonoBehaviour
     public Image imageItem;
     public string itemId;
     public int amountCoins;
+    public string productId;
+    public Button buttonItem;
     
     // Start is called before the first frame update
     void Start()
@@ -23,9 +26,26 @@ public class ItemStore : MonoBehaviour
     }
     public void SetItemsName(CatalogItem item)
     {
+
+        switch (kindOfItem)
+        {
+            case KindOfItem.isArmor:
+                buttonItem.onClick.AddListener(() => { PlayFabStore.playFabStore.BuyArmor(item.ItemId); });
+                break;
+            case KindOfItem.isWeapon:
+                buttonItem.onClick.AddListener(() => { PlayFabStore.playFabStore.BuyWeapon(item.ItemId);});
+                break;
+            case KindOfItem.isCoin:
+                productId = item.CustomData;
+                AndroidPurchase.androidPurchase.BuyCoin(productId);
+                break;
+                
+        }
+
         itemName.text = item.DisplayName;
         //itemTitle.text = item.nameItem;
         itemDescription.text = item.Description;
+             
         if (item.VirtualCurrencyPrices == null)
         {
             itemPrice.text = "0";

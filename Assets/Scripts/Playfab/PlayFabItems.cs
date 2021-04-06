@@ -26,6 +26,9 @@ public class PlayFabItems : MonoBehaviour
     public static CatalogItem currentItem;
     public static List<CatalogItem> shopItems = new List<CatalogItem>();
     private static bool hasItem;
+    private static bool hasItemToDelete;
+    private static CatalogItem itemToDelete;
+    private static string nameDeleteItem;
     
 
     // Start is called before the first frame update
@@ -45,6 +48,14 @@ public class PlayFabItems : MonoBehaviour
         
        
     }
+
+    public static void RemoveItem(string nameItem)
+    {
+        nameDeleteItem = nameItem;
+        GetCurrentItems(KindOfOperation.isDelete);
+    }
+
+
     public static void UpdateItem(CatalogItem newItem)
     {
         currentItem = newItem;
@@ -80,6 +91,7 @@ public class PlayFabItems : MonoBehaviour
                     GameObject newWeapon = Instantiate(prefabItem);
                     newWeapon.transform.SetParent(parentWeapons);
                     newWeapon.transform.localScale = Vector3.one;
+                    newWeapon.GetComponent<ItemStore>().kindOfItem = KindOfItem.isWeapon;
                     newWeapon.GetComponent<ItemStore>().SetItemsName(item);
 
                     //weaponItems.Add(item);
@@ -88,6 +100,7 @@ public class PlayFabItems : MonoBehaviour
                     GameObject newArmor = Instantiate(prefabItem);
                     newArmor.transform.SetParent(parentArmor);
                     newArmor.transform.localScale = Vector3.one;
+                    newArmor.GetComponent<ItemStore>().kindOfItem = KindOfItem.isArmor;
                     newArmor.GetComponent<ItemStore>().SetItemsName(item);
 
                     //armorItems.Add(item);
@@ -96,6 +109,7 @@ public class PlayFabItems : MonoBehaviour
                     GameObject newOther = Instantiate(prefabItem);
                     newOther.transform.SetParent(parentItems);
                     newOther.transform.localScale = Vector3.one;
+                    newOther.GetComponent<ItemStore>().kindOfItem = KindOfItem.isItem;
                     newOther.GetComponent<ItemStore>().SetItemsName(item);
                     //otherItems.Add(item);
                     break;
@@ -103,6 +117,7 @@ public class PlayFabItems : MonoBehaviour
                     GameObject newCoins = Instantiate(prefabItem);
                     newCoins.transform.SetParent(parentCoins);
                     newCoins.transform.localScale = Vector3.one;
+                    newCoins.GetComponent<ItemStore>().kindOfItem = KindOfItem.isCoin;
                     newCoins.GetComponent<ItemStore>().SetItemsName(item);
 
                     break;
@@ -131,6 +146,9 @@ public class PlayFabItems : MonoBehaviour
             case KindOfOperation.isUpdate:
                 PlayFabAdminAPI.GetCatalogItems(request, OnUpdateNewItem, error => { Debug.Log(error.GenerateErrorReport()); });
                 break;
+            case KindOfOperation.isDelete:
+                PlayFabAdminAPI.GetCatalogItems(request, OnDeleteItem, error => { Debug.Log(error.GenerateErrorReport()); });
+                break;
         }
         
     }
@@ -145,6 +163,27 @@ public class PlayFabItems : MonoBehaviour
         
     }
 
+
+    private static void OnDeleteItem(GetCatalogItemsResult result)
+    {
+        itemsToAdd = result.Catalog;
+        foreach (var item in itemsToAdd)
+        {
+            if (item.ItemId == nameDeleteItem)
+            {
+
+                hasItemToDelete = true;
+                itemToDelete = item;
+            }
+        }
+        if (hasItemToDelete)
+        {
+            itemsToAdd.Remove(itemToDelete);
+            UpdateStoreItems(itemsToAdd);
+        }
+       
+    }
+
     private static void OnUpdateNewItem(GetCatalogItemsResult result)
     {
         itemsToAdd = result.Catalog;
@@ -154,7 +193,7 @@ public class PlayFabItems : MonoBehaviour
             if (item.ItemId == currentItem.ItemId)
             {
                 hasItem = true;
-                
+              
                 
             }
         }
@@ -163,14 +202,14 @@ public class PlayFabItems : MonoBehaviour
         {
             itemsToAdd.Add(currentItem);
         }
-        
-        
+
+        UpdateStoreItems(itemsToAdd);
 
 
     }
 
 
-
+    
 
     public static void UpdateStoreItems(List<CatalogItem> items)
     {

@@ -5,4 +5,5 @@ using UnityEngine;
 public class CoinsItems : StoreItems
 {
     public int amountOfCoins;
+    public string productId;
 }

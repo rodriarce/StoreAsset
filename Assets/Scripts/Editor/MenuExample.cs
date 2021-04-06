@@ -30,6 +30,11 @@ public class MenuExample : EditorWindow
     public int defenseWeapon;
     public int amountOfCoins;
     public int valueItem;
+    private string sourceDeleteItem;
+    private GameObject prefabToAdd;
+    private GameObject prefabToDelete;
+    private DataItem datatoDelete;
+    public string productId;
     
     
     //private string pathAsset = "Assets/StoreItems.asset";
@@ -99,6 +104,8 @@ public class MenuExample : EditorWindow
             case KindOfItem.isCoin:
                 GUILayout.Space(5f);
                 amountOfCoins = EditorGUILayout.IntField("Amount of Coins", amountOfCoins);
+                GUILayout.Space(5f);
+                productId = EditorGUILayout.TextField("Google Product Id", productId);
                 break;
             case KindOfItem.isItem:
                 GUILayout.Space(5f);
@@ -236,18 +243,98 @@ public class MenuExample : EditorWindow
         GUILayout.Label("Kind Of Item", EditorStyles.boldLabel);
         GUILayout.Space(5f);
         kindOfItem = (KindOfItem)EditorGUILayout.EnumPopup(kindOfItem);
+
+       switch (kindOfItem)
+        {
+            case KindOfItem.isArmor:
+                prefabObject = (GameObject)EditorGUILayout.ObjectField(prefabObject, typeof(GameObject), true);
+                sourceDeleteItem = AssetDatabase.GetAssetPath(prefabObject);
+                break;
+
+        }
+
+
+
         if (GUILayout.Button("Delete Item"))
         {
-            switch (kindOfItem)
-            {
-                case KindOfItem.isArmor:
-                    break;
-                case KindOfItem.isCoin:
-                    break;
-                case KindOfItem.isItem:
-                    break;
-                
-            }
+            OnButtonDelete();
+        }
+
+    }
+
+
+
+    private void OnButtonDelete()
+    {
+        switch (kindOfItem)
+        {
+
+
+            case KindOfItem.isWeapon:
+
+
+
+
+                GUILayout.Space(5f);
+                prefabObject = (GameObject)EditorGUILayout.ObjectField(prefabObject, typeof(GameObject), true);
+                string sourceOtherItem = AssetDatabase.GetAssetPath(prefabObject);
+                GUILayout.Space(5f);
+
+                // Destroy added component to Item
+                GameObject assetOtherItem = PrefabUtility.LoadPrefabContents(sourceOtherItem);
+
+                DataItem otherComponent = assetOtherItem.GetComponent<DataItem>();
+                DestroyImmediate(otherComponent);
+
+                PrefabUtility.SaveAsPrefabAssetAndConnect(assetOtherItem, sourceOtherItem, InteractionMode.AutomatedAction);
+
+                break;
+
+            case KindOfItem.isArmor:
+
+
+                //Object prefabInstance = PrefabUtility;
+                var armorItems = Resources.LoadAll("Armor", typeof(ArmorItems));
+                foreach (ArmorItems armorItem in armorItems)
+                {
+                    if (nameItem == armorItem.nameItem)
+                    {
+                        GUILayout.Space(5f);
+                     
+                        GUILayout.Space(5f);
+
+                        // Destroy added component to Item
+                        prefabToDelete = PrefabUtility.LoadPrefabContents(sourceDeleteItem);
+
+                        datatoDelete = prefabToDelete.GetComponent<DataItem>();
+                        DestroyImmediate(datatoDelete);
+                        AssetDatabase.DeleteAsset("Assets/Resources/Armor/" + nameItem + ".asset");// Deleta Scriptable
+                        AssetDatabase.SaveAssets();
+                        AssetDatabase.Refresh();
+                        PrefabUtility.SaveAsPrefabAssetAndConnect(prefabToDelete, sourceDeleteItem, InteractionMode.AutomatedAction);
+                        PlayFabItems.RemoveItem(nameItem);// Delete PlayFabItem
+
+
+
+                        return;
+                    }
+                }
+
+                //var newGameObject = new GameObject();
+                //newGameObject.AddComponent(typeof(ItemScript));
+                //var newComponent =  newPrefab.AddComponent<ItemScript>();
+                //prefabObject = newGameObject;
+                //PrefabUtility.
+                //PrefabUtility.R
+
+                //PlayFabItems.RemoveItem
+
+                break;
+            case KindOfItem.isCoin:
+                break;
+            case KindOfItem.isItem:
+                break;
+
         }
 
     }
@@ -391,6 +478,7 @@ public class MenuExample : EditorWindow
                 playFabCoins.CatalogVersion = "Items";
                 playFabCoins.Description = descriptionItem;
                 playFabCoins.ItemClass = "Coins";
+                playFabCoins.CustomData = productId;
 
                 Dictionary<string, uint> currencyCoins = new Dictionary<string, uint>();
 
@@ -430,6 +518,7 @@ public class MenuExample : EditorWindow
                 //PrefabUtility.
                 //PrefabUtility.R
                 GameObject assetOtherItem = PrefabUtility.LoadPrefabContents(sourceOtherItem);
+                                                               
                 DataItem otherComponent = assetOtherItem.AddComponent<DataItem>();
                 otherComponent.SetDataItem(nameItem);
 

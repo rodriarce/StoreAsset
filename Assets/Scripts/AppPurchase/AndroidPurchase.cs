@@ -8,12 +8,22 @@ using PlayFab.ClientModels;
 
 public class AndroidPurchase : MonoBehaviour, IStoreListener
 {
+    public static AndroidPurchase androidPurchase;
     public IStoreController storeController;
     public string oneDollarItem;
     public string fiveDolarItem;
-    public int amountCoinsOneDollar;
-    public int amountConsFiveDollar;
+    public int amountCoins;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        if (androidPurchase == null)
+        {
+            androidPurchase = this;
+        }
+    }
+
+
     void Start()
     {
         
@@ -48,14 +58,12 @@ public class AndroidPurchase : MonoBehaviour, IStoreListener
     }
 
 
-    public void BuyCoinOneDolar()
+    public void BuyCoin(string productId, int amountCoins)
     {
-        storeController.InitiatePurchase(oneDollarItem);// StartPurchase
+        storeController.InitiatePurchase(productId);// StartPurchase
+        this.amountCoins = amountCoins;
     }
-    public void BuyCoinFiveDolar()
-    {
-        storeController.InitiatePurchase(fiveDolarItem);
-    }
+    
 
     public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
     {
@@ -82,13 +90,7 @@ public class AndroidPurchase : MonoBehaviour, IStoreListener
             return PurchaseProcessingResult.Complete;
 
         }
-        if (e.purchasedProduct.definition.id == fiveDolarItem)
-        {
-            PlayFabAuth.playFabAuth.AddCurrency(amountConsFiveDollar);
-            StoreObjects.storeObjects.panelResult.SetActive(true);
-            return PurchaseProcessingResult.Complete;
-        }
-
+       
         return PurchaseProcessingResult.Complete;
         // Invoke receipt validation
         // This will not only validate a receipt, but will also grant player corresponding items
