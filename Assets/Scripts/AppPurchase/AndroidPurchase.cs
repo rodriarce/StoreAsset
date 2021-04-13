@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Purchasing;
-
 using PlayFab;
 using PlayFab.ClientModels;
 
@@ -10,9 +9,11 @@ public class AndroidPurchase : MonoBehaviour, IStoreListener
 {
     public static AndroidPurchase androidPurchase;
     public IStoreController storeController;
-    public string oneDollarItem;
-    public string fiveDolarItem;
-    public int amountCoins;
+    public List<string> itemsIds = new List<string>();
+    private CoinsItems[] currentItems;
+   
+    
+    
     // Start is called before the first frame update
 
     private void Awake()
@@ -34,8 +35,21 @@ public class AndroidPurchase : MonoBehaviour, IStoreListener
         
        var module = StandardPurchasingModule.Instance(AppStore.GooglePlay);
        var builder = ConfigurationBuilder.Instance(module);
-       builder.AddProduct(oneDollarItem, ProductType.Consumable);
-       builder.AddProduct(fiveDolarItem, ProductType.Consumable);
+       currentItems = Resources.LoadAll<CoinsItems>("Coins");
+        if (currentItems == null)
+        {
+            GameLoader.gameLoader.isGoogleInit = true;
+            return;
+        }
+        foreach (CoinsItems item in currentItems)
+        {
+            builder.AddProduct(item.productId, ProductType.Consumable);
+            itemsIds.Add(item.productId);
+        }
+
+
+       //builder.AddProduct(oneDollarItem, ProductType.Consumable);
+       //builder.AddProduct(fiveDolarItem, ProductType.Consumable);
        UnityPurchasing.Initialize(this, builder);
 
     }
@@ -50,6 +64,7 @@ public class AndroidPurchase : MonoBehaviour, IStoreListener
     public void OnInitializeFailed(InitializationFailureReason error)
     {
         Debug.Log(error);
+        GameLoader.gameLoader.isGoogleInit = true;
     }
 
     public void OnPurchaseFailed(Product product, PurchaseFailureReason failureReason)
@@ -58,10 +73,10 @@ public class AndroidPurchase : MonoBehaviour, IStoreListener
     }
 
 
-    public void BuyCoin(string productId, int amountCoins)
+    public void BuyCoin(string productId)
     {
         storeController.InitiatePurchase(productId);// StartPurchase
-        this.amountCoins = amountCoins;
+        
     }
     
 
@@ -81,16 +96,21 @@ public class AndroidPurchase : MonoBehaviour, IStoreListener
         }
 
         Debug.Log("Processing transaction: " + e.purchasedProduct.transactionID);
-
-        // Deserialize receipt
-        if (e.purchasedProduct.definition.id == oneDollarItem)
+        foreach (CoinsItems items in currentItems)
         {
-            PlayFabAuth.playFabAuth.AddCurrency(amountCoinsOneDollar);// Grant Currency After Pay Item
-            StoreObjects.storeObjects.panelResult.SetActive(true);
-            return PurchaseProcessingResult.Complete;
+            if (e.purchasedProduct.definition.id == items.productId)
+            {
+                PlayFabAuth.playFabAuth.AddCurrency(items.amountOfCoins);// Grant Currency After Pay Item
+                StoreObjects.storeObjects.panelResult.SetActive(true);
+                return PurchaseProcessingResult.Complete;
+
+            }
+
+
 
         }
-       
+        // Deserialize receipt
+               
         return PurchaseProcessingResult.Complete;
         // Invoke receipt validation
         // This will not only validate a receipt, but will also grant player corresponding items

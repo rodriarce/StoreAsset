@@ -379,7 +379,7 @@ public class MenuExample : EditorWindow
                 CatalogItem playFabWeapon = new CatalogItem();
                 playFabWeapon.ItemId = nameItem;
                 playFabWeapon.DisplayName = nameItem;
-                playFabWeapon.CatalogVersion = "Items";
+                //playFabWeapon.CatalogVersion = "Items";
                 playFabWeapon.Description = descriptionItem;
                 playFabWeapon.ItemClass = "Weapons";
                 //var newItemScript = prefabObject.AddComponent<Rigidbody>();
@@ -426,7 +426,7 @@ public class MenuExample : EditorWindow
                 CatalogItem playFabArmor = new CatalogItem();
                 playFabArmor.ItemId = nameItem;
                 playFabArmor.DisplayName = nameItem;
-                playFabArmor.CatalogVersion = "Items";
+                //playFabArmor.CatalogVersion = "Items";
                 playFabArmor.Description = descriptionItem;
                 playFabArmor.ItemClass = "Armor";
                 //var newItemScript = prefabObject.AddComponent<Rigidbody>();
@@ -475,7 +475,7 @@ public class MenuExample : EditorWindow
                 CatalogItem playFabCoins = new CatalogItem();
                 playFabCoins.ItemId = nameItem;
                 playFabCoins.DisplayName = nameItem;
-                playFabCoins.CatalogVersion = "Items";
+                //playFabCoins.CatalogVersion = "Items";
                 playFabCoins.Description = descriptionItem;
                 playFabCoins.ItemClass = "Coins";
                 playFabCoins.CustomData = productId;
@@ -503,7 +503,7 @@ public class MenuExample : EditorWindow
                 CatalogItem playFabOtherItem = new CatalogItem();
                 playFabOtherItem.ItemId = nameItem;
                 playFabOtherItem.DisplayName = nameItem;
-                playFabOtherItem.CatalogVersion = "Items";
+                //playFabOtherItem.CatalogVersion = "Items";
                 playFabOtherItem.Description = descriptionItem;
                 playFabOtherItem.ItemClass = "Items";
                 //var newItemScript = prefabObject.AddComponent<Rigidbody>();
@@ -578,7 +578,7 @@ public class MenuExample : EditorWindow
                         CatalogItem playFabItem = new CatalogItem();
                         playFabItem.ItemId = nameItem;
                         playFabItem.DisplayName = nameItem;
-                        playFabItem.CatalogVersion = "Items";
+                        //playFabItem.CatalogVersion = "Items";
                         playFabItem.Description = descriptionItem;
 
                         AssetDatabase.CreateAsset(item, "Assets/Resources/Armor/" + nameItem + ".asset");
@@ -614,7 +614,7 @@ public class MenuExample : EditorWindow
                         CatalogItem playFabItem = new CatalogItem();
                         playFabItem.ItemId = nameItem;
                         playFabItem.DisplayName = nameItem;
-                        playFabItem.CatalogVersion = "Items";
+                        //playFabItem.CatalogVersion = "Items";
                         playFabItem.Description = descriptionItem;
 
                         AssetDatabase.CreateAsset(item, "Assets/Resources/Coins/" + nameItem + ".asset");
@@ -652,7 +652,7 @@ public class MenuExample : EditorWindow
                         CatalogItem playFabItem = new CatalogItem();
                         playFabItem.ItemId = nameItem;
                         playFabItem.DisplayName = nameItem;
-                        playFabItem.CatalogVersion = "Items";
+                        //playFabItem.CatalogVersion = "Items";
                         playFabItem.Description = descriptionItem;
 
                         AssetDatabase.CreateAsset(item, "Assets/Resources/Others/" + nameItem + ".asset");
@@ -688,7 +688,7 @@ public class MenuExample : EditorWindow
                         CatalogItem playFabItem = new CatalogItem();
                         playFabItem.ItemId = nameItem;
                         playFabItem.DisplayName = nameItem;
-                        playFabItem.CatalogVersion = "Items";
+                        //playFabItem.CatalogVersion = "Items";
                         playFabItem.Description = descriptionItem;
 
                         AssetDatabase.CreateAsset(item, "Assets/Resources/Weapons/" + nameItem + ".asset");

@@ -66,7 +66,7 @@ public class PlayFabItems : MonoBehaviour
     public void GetShopItems()
     {
         GetCatalogItemsRequest request = new GetCatalogItemsRequest();
-        request.CatalogVersion = "Items";
+        //request.CatalogVersion = "Items";
         PlayFabAdminAPI.GetCatalogItems(request, OnGetShopItems, error => { Debug.Log(error.GenerateErrorReport()); });
 
     }
@@ -137,7 +137,7 @@ public class PlayFabItems : MonoBehaviour
     {
         itemsToAdd.Clear();
         GetCatalogItemsRequest request = new GetCatalogItemsRequest();
-        request.CatalogVersion = "Items";
+        //request.CatalogVersion = "Items";
         switch (kindOfOperation)
         {
             case KindOfOperation.isAdd:
@@ -214,7 +214,7 @@ public class PlayFabItems : MonoBehaviour
     public static void UpdateStoreItems(List<CatalogItem> items)
     {
         UpdateCatalogItemsRequest request = new UpdateCatalogItemsRequest();
-        request.CatalogVersion = "Items";
+        //request.CatalogVersion = "Items";
         request.Catalog = items;
         PlayFabAdminAPI.SetCatalogItems(request, OnUpdateItems, error => { Debug.Log(error.GenerateErrorReport()); });
         

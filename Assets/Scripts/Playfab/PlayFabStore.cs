@@ -34,7 +34,7 @@ public class PlayFabStore : MonoBehaviour
         
         GrantItemsToUserRequest request = new GrantItemsToUserRequest();
         request.ItemIds = new List<string>() { itemId };
-        request.CatalogVersion = "Weapons";
+        //request.CatalogVersion = "Weapons";
         request.PlayFabId = PlayFabAuth.playFabAuth.playFabId;
         PlayFabServerAPI.GrantItemsToUser(request, OnBuyItem, error => Debug.Log(error.GenerateErrorReport()));   
     }
@@ -44,7 +44,7 @@ public class PlayFabStore : MonoBehaviour
     {
         GrantItemsToUserRequest request = new GrantItemsToUserRequest();
         request.ItemIds = new List<string>() { itemId };
-        request.CatalogVersion = "Armor";
+        //request.CatalogVersion = "Armor";
         request.PlayFabId = PlayFabAuth.playFabAuth.playFabId;
         PlayFabServerAPI.GrantItemsToUser(request, OnBuyItem, error => Debug.Log(error.GenerateErrorReport()));
 

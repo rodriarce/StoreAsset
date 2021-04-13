@@ -12,21 +12,10 @@ public class StoreObjects : MonoBehaviour
 { 
     public static StoreObjects storeObjects;
     public List<StoreItems> storeItems = new List<StoreItems>();
-    public List<ScriptableWeapons> guns;
-    public List<ScriptableWeapons> shotGuns;
-    public List<ScriptableWeapons> rifles;
-    public List<ScriptableWeapons> magnums;
-    public List<GameObject> prefabsWeapons;
-    public GameObject prefabStoreWeapon;
-    public GameObject contentRifle;
-    public GameObject contentGun;
-    public GameObject contentShotGun;
-    public GameObject contentMagnum;
+       
+    
     private int amountToSubstract;
-    public float totalDamage;
-    public float totalCapacity;
-    public float totalSpeed;
-    public int totalDays;
+    
     private string itemGranted;
     public GameObject panelResult;
     public GameObject panelError;

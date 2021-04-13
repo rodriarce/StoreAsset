@@ -113,7 +113,7 @@ public class GameLoader : MonoBehaviour
         {
             if (getInventory == null)
             {
-                getInventory = playFabStore.GetUserWeapons;
+                getInventory = Inventory.inventory.GetUserInventory;
                 getInventory.Invoke();
             }
             yield return null;

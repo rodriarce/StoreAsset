@@ -291,11 +291,12 @@ public class PlayFabAuth : MonoBehaviour
         Dictionary<string, int> myCurrency = new Dictionary<string, int>();
         myCurrency = result.InfoResultPayload.UserVirtualCurrency;
         int currency; 
-        myCurrency.TryGetValue("CO", out currency);
+        myCurrency.TryGetValue("US", out currency);
         amountCurrency = currency;
         Register.register.textCurrency.text = amountCurrency.ToString();
         Register.register.textCurrency.text = amountCurrency.ToString();
         GameLoader.gameLoader.isShowCurrency = true;
+        
 
     }
     public void GrantItem(string itemName, string catalogVersion)

@@ -36,8 +36,9 @@ public class ItemStore : MonoBehaviour
                 buttonItem.onClick.AddListener(() => { PlayFabStore.playFabStore.BuyWeapon(item.ItemId);});
                 break;
             case KindOfItem.isCoin:
-                productId = item.CustomData;
-                AndroidPurchase.androidPurchase.BuyCoin(productId);
+                buttonItem.onClick.AddListener(() => { AndroidPurchase.androidPurchase.BuyCoin(productId);});
+                
+                //AndroidPurchase.androidPurchase.BuyCoin(productId);
                 break;
                 
         }
